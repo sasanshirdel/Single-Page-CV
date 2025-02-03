@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "sf-ui";
+    src: url(./fonts/sf-ui-display-medium.otf) format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    line-height: 1.5rem;
+}
+
+body {
+    font-family: "sf-ui";
+    border: 3px solid black;
+}
+
+.container {
+    margin: 56px;
+}
+
+.name {
+    width: 75%;
+    border-top: 3px solid black;
+    padding-top: 25px;
+    font-weight: 600;
+}
+
+.h3 {
+    font-size: 1rem;
+    color: #2F9E44;
+}
+
+.skills-paragraph {
+    max-width: 600px;
+}
+
+.info-item {
+    color: #1971C2;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.information-section__content {
+    font-family: inherit;
+    font-style: normal;
+}
